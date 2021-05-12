@@ -82,3 +82,53 @@ header .header-jumbo {
   height: 400px;
 }
 
+.main {
+  height: 700px;
+  background-color: #2b2525;
+}
+
+footer .background {
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .background .footer-background {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  color: #858585;
+}
+
+footer .background .footer-background .footer-lists-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .background .footer-background .footer-lists-container .lists {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+footer .background .footer-background .footer-lists-container .lists ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer .background .footer-background span {
+  font-size: 12px;
+}
+
+footer .background .footer-background span label {
+  color: #0282F9;
+}
+
+footer .background .footer-background .big-logo {
+  background-image: url("/img/dc-logo-bg.png");
+  width: 650px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
