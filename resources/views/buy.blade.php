@@ -57,7 +57,8 @@
                         <span>{{$comic['sale_date']}}</span>
                     </div>
                 </div>
-            </div>
+            </div>   
+        </div>
         </div>
     </main>
 @endsection
