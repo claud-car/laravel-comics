@@ -83,8 +83,97 @@ header .header-jumbo {
 }
 
 .main {
-  height: 700px;
-  background-color: #2b2525;
+  background-color: #1C1C1C;
+}
+
+.main .container-main {
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main .container-main .current-mrg-neg {
+  width: 260px;
+  background-color: #0282F9;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px 4px;
+  position: absolute;
+  top: -25px;
+}
+
+.main .container-main .current-mrg-neg p {
+  margin: 0;
+}
+
+.main .container-main .card {
+  margin: 40px 15px;
+}
+
+.main .container-main .card img {
+  width: 170px;
+  height: 200px;
+}
+
+.main .container-main .card .text {
+  text-transform: uppercase;
+  color: #FFF;
+  width: 170px;
+  font-size: 13px;
+}
+
+.main .container-main .button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main .container-main .button button {
+  background-color: #0282F9;
+  padding: 10px 40px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.main .end-main {
+  background-color: #0282F9;
+  height: 150px;
+}
+
+.main .end-main .container-end-main {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.main .end-main .container-end-main .merch {
+  display: flex;
+  align-items: center;
+}
+
+.main .end-main .container-end-main .merch img {
+  width: 40px;
+}
+
+.main .end-main .container-end-main .merch p {
+  color: #FFF;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.main .end-main .container-end-main .merch .other-opts {
+  height: 45px;
 }
 
 footer .background {
@@ -98,6 +187,7 @@ footer .background .footer-background {
   margin: 0 auto;
   display: flex;
   color: #858585;
+  height: 450px;
 }
 
 footer .background .footer-background .footer-lists-container {
@@ -112,13 +202,22 @@ footer .background .footer-background .footer-lists-container .lists {
   flex-direction: row;
 }
 
-footer .background .footer-background .footer-lists-container .lists ul {
+footer .background .footer-background .footer-lists-container .lists .list {
+  margin-right: 40px;
+}
+
+footer .background .footer-background .footer-lists-container .lists .list ul {
   list-style: none;
   padding-left: 0;
 }
 
+footer .background .footer-background .footer-lists-container .lists .list h2 {
+  color: #FFF;
+}
+
 footer .background .footer-background span {
   font-size: 12px;
+  padding-right: 110px;
 }
 
 footer .background .footer-background span label {
@@ -130,5 +229,40 @@ footer .background .footer-background .big-logo {
   width: 650px;
   background-repeat: no-repeat;
   background-position: right center;
+}
+
+footer .end-footer {
+  background-color: #242323;
+}
+
+footer .end-footer .container-end-footer {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+footer .end-footer .container-end-footer .left-part-footer button {
+  font-size: 18px;
+  background-color: transparent;
+  border: 3px solid #0282F9;
+  color: #FFF;
+  padding: 10px;
+}
+
+footer .end-footer .container-end-footer .right-part-footer {
+  display: flex;
+  align-items: center;
+}
+
+footer .end-footer .container-end-footer .right-part-footer p {
+  color: #0282F9;
+  font-size: 22px;
+}
+
+footer .end-footer .container-end-footer .right-part-footer img {
+  margin-left: 20px;
 }
 

@@ -8,6 +8,7 @@ footer{
             margin: 0 auto;
             display: flex;
             color: rgb(133, 133, 133);
+            height: 450px;
             .footer-lists-container{
                 display: flex;
                 flex-direction: column;
@@ -16,14 +17,21 @@ footer{
                     display: flex;
                     align-items: flex-start;
                     flex-direction: row;
-                    ul{
-                        list-style: none;
-                        padding-left: 0;
+                    .list{
+                        margin-right: 40px;
+                        ul{
+                            list-style: none;
+                            padding-left: 0;
+                        }
+                        h2{
+                            color: #FFF;
+                        }
                     }
                 }
             }
             span{
                 font-size: 12px;
+                padding-right: 110px;
                 label{
                     color: $blue;
                 }
@@ -33,6 +41,37 @@ footer{
                 width: 650px;
                 background-repeat: no-repeat;
                 background-position: right center;
+            }
+        }
+    }
+    .end-footer{
+        background-color: #242323;
+        .container-end-footer{
+            width: 65%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+            .left-part-footer{
+                button{
+                    font-size: 18px;
+                    background-color: transparent;
+                    border: 3px solid $blue;
+                    color: #FFF;
+                    padding:10px;
+                }
+            }
+            .right-part-footer{
+                display: flex;
+                align-items: center;
+                p{
+                    color: $blue;
+                    font-size: 22px;
+                }
+                img{
+                    margin-left: 20px;
+                }
             }
         }
     }

@@ -3,7 +3,7 @@
         <div class="footer-background">
             <div class="footer-lists-container">
                 <div class="lists">
-                    <div class="first-list">
+                    <div class="list">
                         <h2>DC COMICS</h2>
                         <ul>
                             <li>Characters</li>
@@ -20,7 +20,7 @@
                             <li>Shop DC Collectibles</li>
                         </ul>   
                     </div>
-                    <div class="second-list">
+                    <div class="list">
                         <h2>DC</h2>
                         <ul>
                             <li>Terms Of Use</li>
@@ -36,7 +36,7 @@
                             <li>Contact Us</li>
                         </ul>
                     </div>
-                    <div class="third-list">
+                    <div class="list">
                         <h2>SITES</h2>
                         <ul>
                             <li>DC</li>
@@ -53,6 +53,21 @@
             </span>
             </div>
             <div class="big-logo"></div>
+        </div>
+    </div>
+    <div class="end-footer">
+        <div class="container-end-footer">
+            <div class="left-part-footer">
+                <button>SIGN-UP NOW!</button>
+            </div>
+            <div class="right-part-footer">
+                <p>FOLLOW US</p>
+                <img src="/img/footer-facebook.png" alt="">
+                <img src="/img/footer-twitter.png" alt="">
+                <img src="/img/footer-youtube.png" alt="">
+                <img src="/img/footer-periscope.png" alt="">
+                <img src="/img/footer-pinterest.png" alt="">
+            </div>
         </div>
     </div>
 </footer>

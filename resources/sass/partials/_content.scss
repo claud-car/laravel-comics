@@ -1,4 +1,79 @@
 .main{
-    height: 700px;
-    background-color: rgb(43, 37, 37);
+    background-color: #1C1C1C;
+    .container-main{
+        width: 65%;
+        margin: 0 auto;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .current-mrg-neg{
+            width: 260px;
+            background-color: $blue;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 10px 4px;
+            position: absolute;
+            top: -25px;
+            p{
+                margin: 0;
+            }
+        }
+        .card{
+            margin: 40px 15px;
+            img{
+                width: 170px;
+                height: 200px;
+            }
+            .text{
+                text-transform: uppercase;
+                color: #FFF;
+                width: 170px;
+                font-size: 13px;
+            }
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 20px;
+            button{
+                background-color: $blue;
+                padding: 10px 40px;
+                border: 0;
+                color: white;
+                font-weight: bold;
+                font-size: 11px;
+            }
+        }
+    }
+    .end-main{
+        background-color: $blue;
+        height: 150px;
+        .container-end-main{
+            width: 65%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            .merch{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 40px;
+                }
+                p{
+                    color: #FFF;
+                    margin-left: 10px;
+                    font-size: 14px;
+                }
+                .other-opts{
+                    height: 45px;
+                }
+            }
+        }
+    }
 }
