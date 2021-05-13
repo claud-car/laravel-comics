@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home')->with('comics', config('comics'));
 });
+
+Route::get('/buy/{id}', function ($id) {
+    $comics = config('comics');
+    return view('buy')->with('comic', $comics[$id]);
+})->name('detailcomic');

@@ -1,18 +1,21 @@
 @extends('layouts.app')
 
 @section('main')
+<main>
     <div class="main">
         <div class="container-main">
             <div class="current-mrg-neg">
                 <p>CURRENT SERIES</p>
             </div>
-            @foreach ($comics as $comic)                
-                <div class="card">
+            @foreach ($comics as $index => $comic)   
+                <a href="{{route('detailcomic' , ['id' => $index])}}" class="card">
+                    <div>
                         <img src="{{$comic['thumb']}}" alt="">
                         <div class="text">
                             <p>{{$comic['series']}}</p>
                         </div>
                     </div>
+                </a>             
             @endforeach 
             <div class="button">
                 <button>LOAD MORE</button>
@@ -43,4 +46,5 @@
             </div>
         </div>
     </div>
+</main>
 @endsection

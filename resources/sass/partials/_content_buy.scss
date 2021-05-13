@@ -1,0 +1,24 @@
+main{
+    .thumbnail{
+        height: 100px;
+        background-color: $blue;
+        position: relative;
+        img{
+            position: absolute;
+            left: 24%;
+            bottom: 50%;
+        }
+    }
+    .info_comic_1{
+        width: 52%;
+        margin:0 auto;
+        display: flex;
+        .left-part{
+            width: 70%;
+            margin-top: 60px;
+        }
+        .right-part{
+            width: 30%;
+        }
+    }
+}

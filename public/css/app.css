@@ -113,6 +113,7 @@ header .header-jumbo {
 
 .main .container-main .card {
   margin: 40px 15px;
+  text-decoration: none;
 }
 
 .main .container-main .card img {
@@ -174,6 +175,33 @@ header .header-jumbo {
 
 .main .end-main .container-end-main .merch .other-opts {
   height: 45px;
+}
+
+main .thumbnail {
+  height: 100px;
+  background-color: #0282F9;
+  position: relative;
+}
+
+main .thumbnail img {
+  position: absolute;
+  left: 24%;
+  bottom: 50%;
+}
+
+main .info_comic_1 {
+  width: 52%;
+  margin: 0 auto;
+  display: flex;
+}
+
+main .info_comic_1 .left-part {
+  width: 70%;
+  margin-top: 60px;
+}
+
+main .info_comic_1 .right-part {
+  width: 30%;
 }
 
 footer .background {
