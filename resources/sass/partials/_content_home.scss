@@ -24,6 +24,13 @@
         .card{
             margin: 40px 15px;
             text-decoration: none;
+            border: 2px solid #1C1C1C;
+            &:hover{
+                border: 2px solid white;
+            }
+            &:hover p{
+                text-decoration: underline;
+            }
             img{
                 width: 170px;
                 height: 200px;
@@ -33,6 +40,7 @@
                 color: #FFF;
                 width: 170px;
                 font-size: 13px;
+                text-align: center;
             }
         }
         .button{
@@ -43,10 +51,16 @@
             button{
                 background-color: $blue;
                 padding: 10px 40px;
-                border: 0;
                 color: white;
                 font-weight: bold;
                 font-size: 11px;
+                border: 3px solid $blue;
+                &:active{
+                    border-style: outset; 
+                }
+                &:hover{
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -63,6 +77,10 @@
             .merch{
                 display: flex;
                 align-items: center;
+                height: 100%;
+                &:hover{
+                    cursor: pointer;
+                }
                 img{
                     width: 40px;
                 }

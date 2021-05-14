@@ -30,6 +30,7 @@ header .navbar {
   align-items: center;
   justify-content: space-between;
   height: 100px;
+  margin-bottom: 2px;
 }
 
 header .navbar .logo img {
@@ -48,6 +49,13 @@ header .navbar .list ul li {
   height: 100px;
   display: flex;
   align-items: center;
+  border-bottom: 4px solid white;
+}
+
+header .navbar .list ul li:hover {
+  cursor: pointer;
+  color: #0282F9;
+  border-bottom: 4px solid #0282F9;
 }
 
 header .navbar .list ul li i {
@@ -60,21 +68,26 @@ header .navbar .search input {
   border: 0;
   border-bottom: 2px solid #0282F9;
   width: 90px;
+  outline: 0;
 }
 
-header .navbar .search input::-moz-placeholder {
+header .navbar .search::-moz-placeholder {
   color: #000;
   font-weight: bold;
 }
 
-header .navbar .search input:-ms-input-placeholder {
+header .navbar .search:-ms-input-placeholder {
   color: #000;
   font-weight: bold;
 }
 
-header .navbar .search input::placeholder {
+header .navbar .search::placeholder {
   color: #000;
   font-weight: bold;
+}
+
+header .navbar .search i:hover {
+  cursor: pointer;
 }
 
 header .header-jumbo {
@@ -114,6 +127,15 @@ header .header-jumbo {
 .main .container-main .card {
   margin: 40px 15px;
   text-decoration: none;
+  border: 2px solid #1C1C1C;
+}
+
+.main .container-main .card:hover {
+  border: 2px solid white;
+}
+
+.main .container-main .card:hover p {
+  text-decoration: underline;
 }
 
 .main .container-main .card img {
@@ -126,6 +148,7 @@ header .header-jumbo {
   color: #FFF;
   width: 170px;
   font-size: 13px;
+  text-align: center;
 }
 
 .main .container-main .button {
@@ -138,10 +161,18 @@ header .header-jumbo {
 .main .container-main .button button {
   background-color: #0282F9;
   padding: 10px 40px;
-  border: 0;
   color: white;
   font-weight: bold;
   font-size: 11px;
+  border: 3px solid #0282F9;
+}
+
+.main .container-main .button button:active {
+  border-style: outset;
+}
+
+.main .container-main .button button:hover {
+  cursor: pointer;
 }
 
 .main .end-main {
@@ -161,6 +192,11 @@ header .header-jumbo {
 .main .end-main .container-end-main .merch {
   display: flex;
   align-items: center;
+  height: 100%;
+}
+
+.main .end-main .container-end-main .merch:hover {
+  cursor: pointer;
 }
 
 .main .end-main .container-end-main .merch img {
@@ -231,6 +267,10 @@ main .info_comic_1 .left-part .price-check div p label {
 
 main .info_comic_1 .left-part .price-check p {
   color: #FFF;
+}
+
+main .info_comic_1 .left-part .price-check p:hover {
+  cursor: pointer;
 }
 
 main .info_comic_1 .left-part p {
@@ -369,6 +409,12 @@ footer .background .footer-background .footer-lists-container .lists .list ul {
   padding-left: 0;
 }
 
+footer .background .footer-background .footer-lists-container .lists .list ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #FFF;
+}
+
 footer .background .footer-background .footer-lists-container .lists .list h2 {
   color: #FFF;
 }
@@ -380,6 +426,14 @@ footer .background .footer-background span {
 
 footer .background .footer-background span label {
   color: #0282F9;
+}
+
+footer .background .footer-background span label:hover {
+  cursor: pointer;
+}
+
+footer .background .footer-background span label:active {
+  color: grey;
 }
 
 footer .background .footer-background .big-logo {
@@ -410,6 +464,10 @@ footer .end-footer .container-end-footer .left-part-footer button {
   padding: 10px;
 }
 
+footer .end-footer .container-end-footer .left-part-footer button:active {
+  border-style: outset;
+}
+
 footer .end-footer .container-end-footer .right-part-footer {
   display: flex;
   align-items: center;
@@ -422,5 +480,9 @@ footer .end-footer .container-end-footer .right-part-footer p {
 
 footer .end-footer .container-end-footer .right-part-footer img {
   margin-left: 20px;
+}
+
+footer .end-footer .container-end-footer .right-part-footer img:hover {
+  cursor: pointer;
 }
 

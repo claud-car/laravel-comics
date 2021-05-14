@@ -29,7 +29,10 @@
                         <p>Art By:</p>
                         <span>
                             @foreach($comic['artists'] as $art)
-                            {{$art}} <label>,</label>
+                                {{$art}}
+                                @if (!$loop->last)
+                                <label>,</label>
+                                @endif
                             @endforeach
                         </span>
                     </div>
@@ -37,7 +40,10 @@
                         <p>Written By:</p>
                         <span>
                             @foreach($comic['writers'] as $writer)
-                            {{$writer}} <label>,</label>
+                            {{$writer}}
+                            @if (!$loop->last)
+                                <label>,</label>
+                            @endif
                             @endforeach
                         </span>
                     </div>

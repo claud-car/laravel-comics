@@ -41,6 +41,9 @@ main{
                 }
                 p{
                     color: #FFF;
+                    &:hover{
+                        cursor: pointer;
+                    }
                 }
             }
             p{
